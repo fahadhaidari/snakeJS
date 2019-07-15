@@ -37,7 +37,7 @@ window.onload = function() {
     )
 
   const resizeScene = function() {
-    canvas.width = CELL_SIZE * matrix[0].length;
+    canvas.width =  matrix[0].length * CELL_SIZE;
     canvas.height = matrix.length * CELL_SIZE;
     canvas.style.marginTop = `${((window.innerHeight / 2) - (canvas.height / 2))}px`;
   };
