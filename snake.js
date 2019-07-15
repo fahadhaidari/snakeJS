@@ -1,8 +1,8 @@
 window.onload = function() {
   const SCREEN_COLOR = '#EEEEEE';
   const CANVAS_COLOR = '#FFFFFF';
-  const CANVAS_BORDER_WIDTH = 10;
   const CANVAS_BORDER_COLOR = '#444444';
+  const CANVAS_BORDER_WIDTH = 10;
   const GRID_WIDTH = 20;
   const GRID_HEIGHT = 30;
   const TEXT_COLOR = 'blue';
